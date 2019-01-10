@@ -70,14 +70,7 @@ include 'frm_merchant_reg.php'
 
 ?>
     </div>
-    <script type="text/javascript">
-    function myFunction()
-{
-    document.Form1.action = "http://paperflybd.com/api_temporary_merchant_registration.php";
-    document.Form1.submit();             // Submit the page
-    return true;
-}
-    </script>
+   
 
 <?php
 include 'modFooter.php';
