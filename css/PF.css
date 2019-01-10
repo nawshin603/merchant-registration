@@ -42,7 +42,6 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    background-color: #17479e;
 }
 
 /*p { 
@@ -252,7 +251,7 @@ body {
 .bottomNavbar {
     margin-top: 30px;
     padding-top: 20px;
-   /*  border-top: 2px solid #00AEEF; */
+    border-top: 2px solid #00AEEF;
 }
 
 #navLogo {
@@ -347,9 +346,9 @@ ul.topNav li a:active {
 
 ul.bottomNav li a {
     padding: 7px;
-    color: #fff;
- /*    background-color: white; */
-   /*  border-radius: 5px; */
+    color: #00AEEF;
+    background-color: white;
+    border-radius: 5px;
 }
 
 ul.bottomNav li a:hover {
@@ -1233,19 +1232,15 @@ img.promo {
 
 .stdFormContainer {
     margin: 0;
-    padding: 25px 4%;
-    background-color: #fff;
-    color: #17479e;
-    overflow-x: scroll;
+    padding: 25px 12%;
+    background-color: #16469E;
+    color: white;
 }
-.stdFormContainer table{
-    margin-left: 0px;
-  
-}
+
 .stdFormHeader {
     border-bottom: 3px solid #00AEEF;
     font-size: 2em;
-    padding: 50px 0 20px 0px;
+    padding: 50px 0 20px 100px;
     margin-bottom: 20px;
 }
 
@@ -1266,23 +1261,22 @@ td {
     vertical-align: top;
     margin: 10px;
     display: inline-block;
-    color: #17479e;
+    color: white;
     font-size: 14px;
-    text-align: left;
+    text-align: right;
     width: 160px;
 }
 
 .stdFormInput, .stdFormInputBox {
-    background: rgba(22, 70, 158, 0.18);
-    color: #17479e;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
     border: 0;
     padding: 0 10px;
-    width: 200px;
+    width: 300px;
     height: 30px;
     /*border-bottom: 2px solid #00AEEF;*/
     border-bottom: 1px solid white;
-    margin: 2px 2px;
-    display: inline-block;
+    margin: 5px 10px;
 }
 
 .stdFormInputBox {
@@ -1309,7 +1303,7 @@ td {
     color: white;
     /*font-family: PaperFlyBold;*/
     /*font-family: PaperFlyThin;*/
-    width: 200px;
+    width: 300px;
     cursor: pointer;
     padding: 15px;
     margin: 5px 10px;
@@ -1749,16 +1743,4 @@ Class name automatically added to element */
     #goTop{
         left: 80%;
     }
-}
-
-.stdFormInput option{
-    background-color:#d5deee;
-    color: #17479e;
-    border: 0;
-    padding: 20px 10px;
-    max-width:90%;
-}
-
-.mForm{
-    border-bottom: 3px solid #00AEEF;
 }
