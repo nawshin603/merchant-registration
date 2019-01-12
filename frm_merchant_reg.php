@@ -1,5 +1,10 @@
 <script>
     function myfunction(){
+      var x = document.forms["merchant_reg"]["email"].value;
+   
+        if (x == "") {
+        alert("You must enter your email");
+      }else{
 
          $.ajax({
            type: 'post',
@@ -17,16 +22,15 @@
              alert('form was submitted');
            }
          });
+        }
      }
 
 
    </script>
 
 <div class="stdFormHeader"> New Merchant Registration</div>
-<div class= formbody> 
-<form action="" method="POST" class="mForm">
-
-<table>
+<form id="merchant_reg" action="" method="POST">
+  <table>
   <tbody>
     <tr>
       <td colspan="3">
@@ -41,8 +45,8 @@
       <td> 
           <label class="stdFormLabel">Business Type : </label>
           <select class="stdFormInput" id="businessType" name="businessType">
-              <option value="M">Market Place</option>
-              <option value="S">Shop</option>
+              <option value="Market Place">Market Place</option>
+              <option value="Shop">Shop</option>
           </select>
       </td>
       <td>
@@ -101,7 +105,7 @@
     </tr>
     <tr>
     <td>
-      <label class="stdFormLabel">Email : </label><input class="stdFormInput" type="text" name="email" >
+      <label class="stdFormLabel">Email : </label><input class="stdFormInput" type="text" id="email" name="email" >
       </td>
     </tr>
     <tr>
@@ -136,7 +140,8 @@
         </select>
         </td>
       </tr>
-    <tr>
+    <tr colspan="3">
+
       <td>
       <input class="stdFormButton"  type="submit" name="submit" onClick="myfunction()" value="Apply">
       </td>
@@ -144,8 +149,10 @@
 
   </tbody>
 </table>
+  <!--  <label class="stdFormLabel">Merchant name : </label><input class="stdFormInput" type="text" name="merchantName" required><br>
+   <label class="stdFormLabel">Contact Person : </label><input class="stdFormInput" type="text" name="contactPerson" required><br>
+   <label class="stdFormLabel">Contact Number : </label><input class="stdFormInput" type="text" name="contactNumber" id="c_number" required><br>
+   <label class="stdFormLabel">Address : </label><textarea class="stdFormInputBox" name="address"></textarea><br>
 
-
+   <input class="stdFormButton"  type="submit" name="submit" onClick="myfunction()" value="Apply"> -->
 </form>
-
-</div>

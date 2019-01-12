@@ -1,20 +1,16 @@
 /*
 #00AEEF 0,174,239 CMYK:69% 14% 0% 0%
 #16469E 22,70,158 CMYK:100% 84% 2% 0%
-
 link,visited,hover,active
-
 Automation that Enables
 End to End Digital
 21steps Delivery
 Electronic Incvoice and Settlement
 Open API
-
 Product
 Any Size Delivery
 363 days service
 Pricing
-
 */
 
 /************************ Common Styling */
@@ -479,7 +475,6 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-
 .dropdownContainer a:hover {background-color: #00AEEF}*/
 
 /*.show {display:flex;}*/
@@ -1283,6 +1278,8 @@ td {
     border-bottom: 1px solid white;
     margin: 2px 2px;
     display: inline-block;
+    border: 1px solid #bcc2ce;
+    box-shadow: 1px 1px 2px 0px #bcc2ce;
 }
 
 .stdFormInputBox {
@@ -1304,7 +1301,7 @@ td {
 }
 
 .stdFormButton {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #16469e;
     /*color: #16469E;*/
     color: white;
     /*font-family: PaperFlyBold;*/
@@ -1312,8 +1309,7 @@ td {
     width: 200px;
     cursor: pointer;
     padding: 15px;
-    margin: 5px 10px;
-    margin-left: 190px;
+    margin: 15px 0px;
     border: none;
     border-bottom: 1px solid white;
     border-radius: 5px;
@@ -1441,7 +1437,6 @@ Class name automatically added to element */
 }
 
 /* Custom class modifications - adds to / overrides above
-
 .simply-scroll is default base class */
 
 /* Container DIV */
